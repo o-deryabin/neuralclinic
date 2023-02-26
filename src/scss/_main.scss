@@ -1,3 +1,7 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
 img {
   max-width: 100%;
 }
@@ -62,4 +66,26 @@ p {
   @media (min-width: 992px) {
     font-size: 20px;
   }
+}
+
+.section {
+  margin-top: 100px;
+  @media (min-width: 768px) {
+    margin-top: 120px;
+  }
+
+  @media (min-width: 992px) {
+    margin-top: 160px;
+  }
+}
+
+.button {
+  background-color: $key;
+  border-radius: $br;
+  color: #fff;
+  padding: 20px 25px;
+}
+
+.green {
+  color: $key;
 }

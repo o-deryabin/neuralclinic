@@ -1,0 +1,42 @@
+.section_video {
+  .section {
+    &__container,
+    &__image {
+      position: relative;
+    }
+    &__content {
+      position: absolute;
+      top: 50px;
+      left: 40px;
+      right: 40px;
+      color: #fff;
+      font-size: 25px;
+      img {
+        max-width: 100px;
+        transition: all 0.3s;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+    &__icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      right: 0;
+      transform: translate(-50%);
+      width: 100px;
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+
+  iframe {
+    height: 400px;
+    border-radius: $br;
+    @media (min-width: 992px) {
+      height: 730px;
+    }
+  }
+}

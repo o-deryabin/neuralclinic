@@ -1,0 +1,35 @@
+.section_visit {
+  .section {
+    &__content {
+      padding: 50px 40px 40px;
+      background: linear-gradient(
+          90deg,
+          #f3f3f3 52.46%,
+          rgba(237, 237, 237, 0.694394) 63.76%,
+          rgba(237, 237, 237, 0) 66.68%
+        ),
+        rgba(33, 33, 33, 0.1);
+      border-radius: $br;
+      position: relative;
+    }
+
+    &__title {
+      margin-bottom: 20px;
+    }
+
+    &__button {
+      width: 100%;
+    }
+
+    &__promo {
+      position: absolute;
+      top: 0;
+      left: 40px;
+      padding: 11px 22px;
+      transform: translateY(-50%);
+      background: $grey;
+      border: 1px solid $key;
+      border-radius: 10px;
+    }
+  }
+}

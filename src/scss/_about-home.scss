@@ -1,0 +1,30 @@
+.section_about {
+  .section {
+    &__title {
+      margin-bottom: 15px;
+
+      @media (min-width: 768px) {
+        margin-bottom: 30px;
+      }
+
+      @media (min-width: 992px) {
+        margin-bottom: 45px;
+      }
+    }
+
+    &__content {
+      background-color: $grey;
+      padding: 30px;
+      border-radius: $br;
+      margin-top: 10px;
+
+      @media (min-width: 768px) {
+        margin-top: 15px;
+      }
+
+      @media (min-width: 992px) {
+        margin-top: 65px;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.section_features {
+  .section {
+    &__content {
+      position: absolute;
+      left: 40px;
+      right: 40px;
+      bottom: 40px;
+      color: #fff;
+    }
+
+    &__title {
+      margin-bottom: 30px;
+      font-weight: 400;
+    }
+
+    &__list {
+      //   display: flex;
+      //   flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 200px auto;
+      grid-gap: 50px;
+    }
+  }
+  .item {
+    margin-left: 60px;
+    &__title {
+      font-weight: 900;
+      font-size: 50px;
+      line-height: 60px;
+    }
+  }
+}
